@@ -4,10 +4,79 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Motoboy online</title>
+    <title>Motoboy.online</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-    
+    <header>
+        <img id="logo" src="./logo.png"/>
+    </header>
+    <div id="hero-img"></div>
+    <div id="escolher-cidades">
+        <p>Sua entrega a um click de distância!<br>
+           Escolha sua cidade para consultar valores.
+        </p>
+        <select style="display: block" name="cidades atendidas">
+            <option value="00">Joinville/SC</option>
+            <option value="01">Florianópolis/SC</option>
+            <option value="02">Curitiba/PR</option>
+            <option value="03">São José/SC</option>
+            <option value="04">Rio de Janeiro/RJ</option>
+            <option value="05">São Paulo/SP</option>
+            <option value="06">Campinas/SP</option>
+            <option value="07">Porto Alegre/RS</option>
+            <option value="08">Gramado/RS</option>
+            <option value="09">Rio do Sul/SC</option>
+            <option value="10">Blumenau/SC</option>
+        </select>
+        <button class="button">Orçar entrega</button>
+    </div>
+    <div id="lista-cidades-atendidas">
+        <p>Confira a lista de cidades que temos cobertura!</p>
+        <ul>
+            <li>Joinville/SC</li>
+            <li>Florianópolis/SC</li>
+            <li>Curitiba/PR</li>
+            <li>São José/SC</li>
+            <li>Rio de Janeiro/RJ</li>
+            <li>São Paulo/SP</li>
+            <li>Campinas/SP</li>
+            <li>Porto Alegre/RS</li>
+            <li>Gramado/RS</li>
+            <li>Rio do Sul/SC</li>
+            <li>Blumenau/SC</li>
+            <li>Jaraguá do Sul/SC</li>
+            <li>Brusque/SC</li>
+            <li>Balneário Camboriú/SC</li>
+            <li>Chapecó/SC</li>
+            <li>Itajaí/SC</li>
+            <li>Palhoça/SC</li>
+            <li>Concórdia/SC</li>
+            <li>Lages/SC</li>
+            <li>Rio Do Oeste/SC</li>
+            <li>Maringá/PR</li>
+            <li>Londrina/PR</li>
+            <li>Ponta Grossa/PR</li>
+            <li>Cascavel/PR</li>
+            <li>São José dos Pinhais/PR</li>
+            <li>Foz do Iguaçu/PR</li>
+            <li>São José dos Campos/SP</li>
+            <li>São Bernardo do Campo/SP</li>
+            <li>Guarulhos/SP</li>
+            <li>Jundiaí/SP</li>
+        </ul>
+    </div>
+
+    <footer>
+        <nav class="apps">
+            <p class="app-text">Baixe nosso App no iOS ou no Android clicando nas imagens</p>
+            <a href="https://play.google.com/store/apps" target="_blank">
+                <img class="loja-icon" src="./play-store.png">
+            </a>
+            <a href="https://www.apple.com/br/app-store/" target="_blank">
+                <img class="loja-icon" src="./apple-store.png">
+            </a>
+        </nav>
+    </footer>
 </body>
 </html>
