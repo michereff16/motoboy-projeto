@@ -15,12 +15,12 @@
 
 
 ### Features
-- [ ] Incluir header
-   - [ ] Logo
-   - [ ] Menu
+- [X] Incluir header
+   - [x] Logo
+   - [x] Menu
 - [ ] Incluir carrossel
-- [ ] Incluir titulo com botão de orçamento
+- [X] Incluir titulo com botão de orçamento
 - [ ] Incluir relato de clientes satisfeitos
--  [ ] Incluir cidades atendidas
-- [ ] Incluir footer da página
-   - [ ] Incluir midias sociais e botões de download do app para Android e Apple.
+-  [X] Incluir cidades atendidas
+- [x] Incluir footer da página
+   - [X] Incluir midias sociais e botões de download do app para Android e Apple.
