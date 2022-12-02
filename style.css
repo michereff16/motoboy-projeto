@@ -76,11 +76,42 @@ header {
     padding-left: 200px;
 }
 
-
+#lista-cidades-atendidas {
+    font-family: 'Roboto', sans-serif;
+    font-size: 26px;
+    display: list-item;
+    flex-direction: column;
+    justify-content: left;
+    padding-top: 200px;
+    padding-left: 200px;
+    padding-bottom: 200px;
+}
 
 
 
 
 footer {
     background-color: #ffb300;
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.app-text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    text-shadow: rgba(0, 0, 0, 0.596) 2px 2px;
+}
+
+.loja-icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    height: 60px;
+    width: auto;
+    
 }
